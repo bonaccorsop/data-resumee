@@ -1,0 +1,122 @@
+{
+    "agency": "Mosaicoon S.p.a.",
+    "industries": ["Advertising"],
+    "entryDate": "12-07-2017",
+    "works": [
+        {
+            "role": "Developer",
+            "description": "Mosaicoon LAB, a site that collects inspirational videos for worldwide creators",
+            "customers": ["Mosaicoon"],
+            "skills": ["PHP", "CodeIgniter", "MySQL", "Javascript", "JQuery"]
+        },
+        {
+            "role": "Developer",
+            "description": "Refactoring of Mosaicoon Institutional Site",
+            "notes": "Mobile and IE7 Compatible",
+            "customers": ["Mosaicoon"],
+            "skills": ["PHP", "CodeIgniter", "MySQL", "Javascript", "JQuery", "CSS2"]
+        },
+        {
+            "role": "Developer",
+            "description": "Wordpress sites and landing pages for some Mosaicoon customers",
+            "notes": "IE7 Compatible",
+            "customers": ["Duca di Salaparuta", "Cantine Florio", "Planeta"],
+            "skills": ["PHP", "MySQL", "Wordpress", "Wordpress Themes", "CSS2", "Wordpress Plugins", "Javascript", "Facebook API's", "Twitter API's"]
+        },
+        {
+            "description": "Cordova HTML5 app for Built for iOS",
+            "role": "Developer",
+            "time": "7 weeks",
+            "notes": "A catalogue of client's products collection with additional informations about palces, events, etc...",
+            "customers": ["Planeta"],
+            "skills": ["Javascript", "HTML5", "CSS3", "XCode", "App Store"]
+        },
+        {
+            "description": "HTML5 WebApp of geolocalized events",
+            "role": "Developer",
+            "time": "5 weeks",
+            "InvolvedPersons": 2,
+            "notes": "IE8 Compatible",
+            "customers": ["Planeta"],
+            "skills": ["Javascript", "HTML5", "CSS3", "Google Maps API's", "Facebook API's"]
+        },
+        {
+            "description": "Mosaicoon Timesheet",
+            "role": "Developer",
+            "time": "4 weeks",
+            "notes": "Web application based on LAMP Stack",
+            "customers": ["Mosaicoon"],
+            "skills": ["PHP", "PHP Custom Framework", "Javascript", "JQuery", "MySQL"]
+        },
+        {
+            "description": "Crevity, a crowd sourcing platform to scale Mosaicoon's video productions",
+            "role": "Architect and Lead Developer",
+            "time": "2+ years",
+            "InvolvedPersons": 5,
+            "notes": "Web application based on LEMP Stack",
+            "customers": ["Mosaicoon"],
+            "hostedAt": "DigitalOcean VPS",
+            "skills": ["Git", "PHP", "Symfony Framework", "Silex", "Javascript", "Backbone.js", "Angular.js", "PHP-FPM", "Nginx",
+                "MariaDb", "MongoDb", "Redis", "ElasticSearch", "RESTful API's", "Beanstalkd", "JWT",
+                "SASS", "CSS3", "Agile Methodology"
+            ]
+        },
+        {
+            "description": "Automation of Acceptance Testing using Selenium",
+            "role": "DevOps Engineer",
+            "time": "1 month",
+            "customers": ["Mosaicoon"],
+            "hostedAt": "Mosaicoon private Servers",
+            "skills": ["Selenium", "Acceptance Testing"]
+        },
+        {
+            "description": "Automation of Build and Deploy for a lot of software modules with very low effort",
+            "role": "DevOps Engineer",
+            "time": "2+ months",
+            "notes": "Architect and setup a Continuos Integration system based on Jenkins. This task required refactoring of a lot of projects code (especially for package management)",
+            "customers": ["Mosaicoon"],
+            "hostedAt": "Digital Ocean VPS",
+            "skills": ["Continuous Integration", "Continuous Deployment", "Jenkins", "Bash Script", "Git", "BitBucket API's", "Test Automation", "Build Automation", "Safe Deploy Automation"]
+        },
+        {
+            "description": "Peter, a Single Sign On Web Service based on OAuth1",
+            "role": "Architect",
+            "time": "1 month",
+            "InvolvedPersons": 3,
+            "notes": "RESTful Service",
+            "customers": ["Mosaicoon"],
+            "hostedAt": "DigitalOcean VPS",
+            "skills": ["Git", "PHP", "Slim Framework", "OAuth", "SSO", "MongoDb", "RESTful Service", "Agile Methodology"]
+        },
+        {
+            "description": "Gabriel, a messaging web service that wraps up SMS, emails and Push Notifications into a single RESTful interface",
+            "role": "Architect and Lead Developer",
+            "time": "2 months",
+            "InvolvedPersons": 2,
+            "notes": "Multiprocess RESTful Service",
+            "customers": ["Mosaicoon"],
+            "hostedAt": "DigitalOcean VPS",
+            "skills": ["Git", "PHP", "Laravel", "PHP-FPM", "Nginx", "MongoDb", "RESTful Service", "Queues", "Beanstalkd", "Mandrill API's", "Agile Methodology"]
+        },
+        {
+            "description": "Payment Module Web Service with PayPal",
+            "role": "Architect and Developer",
+            "time": "2 months",
+            "notes": "RESTful Service which manage Mosaicoon's suppliers payments",
+            "customers": ["Mosaicoon"],
+            "hostedAt": "DigitalOcean VPS",
+            "skills": ["Git", "PHP", "Laravel", "PHP-FPM", "Nginx", "MySQL", "RESTful Service", "PayPal API's", "PHPUnit", "Unit Testing", "Functional Testing", "Agile Methodology"]
+        },
+        {
+            "description": "Video Transcoding Module Web Service with FFmpeg",
+            "role": "Architect and Lead Developer",
+            "time": "3 months",
+            "InvolvedPersons": 3,
+            "notes": "RESTful Service which transcodes uploaded videos with specified transcoding options",
+            "customers": ["Mosaicoon"],
+            "hostedAt": "DigitalOcean VPS",
+            "skills": ["Git", "PHP", "Symfony Framework", "FFmpeg", "PHP-FPM", "Beanstalkd", "Nginx", "MongoDb", "RESTful Service", "Functional Testing", "Agile Methodology"]
+        }
+    ]
+}
+
