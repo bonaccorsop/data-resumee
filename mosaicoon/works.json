@@ -86,7 +86,7 @@
             "notes": "RESTful Service",
             "customers": ["Mosaicoon"],
             "hostedAt": "DigitalOcean VPS",
-            "skills": ["Git", "PHP", "Slim Framework", "OAuth", "SSO", "MongoDb", "RESTful Service", "Agile Methodology"]
+            "skills": ["Git", "Jenkins", "PHP", "Slim Framework", "OAuth", "SSO", "MongoDb", "RESTful Service", "Agile Methodology"]
         },
         {
             "description": "Gabriel, a messaging web service that wraps up SMS, emails and Push Notifications into a single RESTful interface",
@@ -96,7 +96,7 @@
             "notes": "Multiprocess RESTful Service",
             "customers": ["Mosaicoon"],
             "hostedAt": "DigitalOcean VPS",
-            "skills": ["Git", "PHP", "Laravel", "PHP-FPM", "Nginx", "MongoDb", "RESTful Service", "Queues", "Beanstalkd", "Mandrill API's", "Agile Methodology"]
+            "skills": ["Git", "Jenkins", "PHP", "Laravel", "PHP-FPM", "Nginx", "MongoDb", "RESTful Service", "Queues", "Beanstalkd", "Mandrill API's", "Agile Methodology"]
         },
         {
             "description": "Payment Module Web Service with PayPal",
@@ -105,7 +105,7 @@
             "notes": "RESTful Service which manage Mosaicoon's suppliers payments",
             "customers": ["Mosaicoon"],
             "hostedAt": "DigitalOcean VPS",
-            "skills": ["Git", "PHP", "Laravel", "PHP-FPM", "Nginx", "MySQL", "RESTful Service", "PayPal API's", "PHPUnit", "Unit Testing", "Functional Testing", "Agile Methodology"]
+            "skills": ["Git", "Jenkins", "PHP", "Laravel", "PHP-FPM", "Nginx", "MySQL", "RESTful Service", "PayPal API's", "PHPUnit", "Unit Testing", "Functional Testing", "Agile Methodology"]
         },
         {
             "description": "Video Transcoding Module Web Service with FFmpeg",
@@ -115,7 +115,37 @@
             "notes": "RESTful Service which transcodes uploaded videos with specified transcoding options",
             "customers": ["Mosaicoon"],
             "hostedAt": "DigitalOcean VPS",
-            "skills": ["Git", "PHP", "Symfony Framework", "FFmpeg", "PHP-FPM", "Beanstalkd", "Nginx", "MongoDb", "RESTful Service", "Functional Testing", "Agile Methodology"]
+            "skills": ["Git", "Jenkins", "PHP", "Symfony Framework", "FFmpeg", "PHP-FPM", "Beanstalkd", "Nginx", "MongoDb", "RESTful Service", "Functional Testing", "Agile Methodology"]
+        },
+        {
+            "description": "Refactoring of Plavid, the Mosaicoon's proprietary advertising distribuition platform",
+            "role": "Devops Engineer and Lead Developer",
+            "time": "5+ weeks",
+            "InvolvedPersons": 2,
+            "notes": "This task was done to reach a valid scaling strategy and improve his Continuous Integration flow",
+            "customers": ["Mosaicoon"],
+            "hostedAt": "DigitalOcean VPS",
+            "skills": ["Git", "Jenkins", "Continuous Integration", "Load Balancer", "PHP", "Laravel"]
+        },
+        {
+            "description": "Prepare microservices infrastructure at AWS hosting for Mosaicoon Platform using Docker",
+            "role": "Devops Engineer",
+            "time": "3+ months",
+            "InvolvedPersons": 3,
+            "notes": "This task was epic. In just 3 months we deployed 30+ contenerized Microservices into Amazon Web Service. Then, we reached a very low effort in develop and deploy new modules linked with the existing ecosystem.",
+            "customers": ["Mosaicoon"],
+            "hostedAt": "AWS",
+            "skills": ["Docker", "Git", "Jenkins", "AWS", "EC2", "Route 53", "Elastic Cache", "S3", "RDS", "CloudFront", "Nginx", "Load Balancing", "Horizontal Scaling", "CDN"]
+        },
+        {
+            "description": "Coordinate migration of most of existing Mosaicoon Softwares into contenerized AWS modules using Docker",
+            "role": "Devops Engineer",
+            "time": "3 months",
+            "InvolvedPersons": 5,
+            "notes": "This task required a lot of refactoring",
+            "customers": ["Mosaicoon"],
+            "hostedAt": "AWS",
+            "skills": ["Docker", "Git", "Jenkins", "AWS", "EC2", "Route 53", "Elastic Cache", "S3", "RDS", "CloudFront", "Nginx", "Load Balancing", "Horizontal Scaling", "CDN"]
         }
     ]
 }
