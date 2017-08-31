@@ -7,29 +7,29 @@
             "role": "Developer",
             "description": "Mosaicoon LAB, a site that collects inspirational videos for worldwide creators",
             "customers": ["Mosaicoon"],
-            "skills": ["PHP", "CodeIgniter", "MySQL", "Javascript", "JQuery"]
+            "skills": ["PHP", "CodeIgniter", "MySQL", "JavaScript", "JQuery"]
         },
         {
             "role": "Developer",
             "description": "Refactoring of Mosaicoon Institutional Site",
             "notes": "Mobile and IE7 Compatible",
             "customers": ["Mosaicoon"],
-            "skills": ["PHP", "CodeIgniter", "MySQL", "Javascript", "JQuery", "CSS2"]
+            "skills": ["PHP", "CodeIgniter", "MySQL", "JavaScript", "JQuery", "CSS"]
         },
         {
             "role": "Developer",
             "description": "Wordpress sites and landing pages for some Mosaicoon customers",
             "notes": "IE7 Compatible",
             "customers": ["Duca di Salaparuta", "Cantine Florio", "Planeta"],
-            "skills": ["PHP", "MySQL", "Wordpress", "Wordpress Themes", "CSS2", "Wordpress Plugins", "Javascript", "Facebook API's", "Twitter API's"]
+            "skills": ["PHP", "MySQL", "Wordpress", "Wordpress Themes", "CSS", "Wordpress Plugins", "JavaScript", "Facebook API's", "Twitter API's"]
         },
         {
-            "description": "Cordova HTML5 app for Built for iOS",
+            "description": "PlanetaApp, a Cordova HTML5 app Built for iOS",
             "role": "Developer",
             "time": "7 weeks",
             "notes": "A catalogue of client's products collection with additional informations about palces, events, etc...",
             "customers": ["Planeta"],
-            "skills": ["Javascript", "HTML5", "CSS3", "XCode", "App Store"]
+            "skills": ["JavaScript", "HTML5", "CSS3", "XCode", "App Store"]
         },
         {
             "description": "HTML5 WebApp of geolocalized events",
@@ -38,7 +38,7 @@
             "InvolvedPersons": 2,
             "notes": "IE8 Compatible",
             "customers": ["Planeta"],
-            "skills": ["Javascript", "HTML5", "CSS3", "Google Maps API's", "Facebook API's"]
+            "skills": ["JavaScript", "HTML5", "CSS3", "Google Maps API's", "Facebook API's"]
         },
         {
             "description": "Mosaicoon Timesheet",
@@ -46,7 +46,7 @@
             "time": "4 weeks",
             "notes": "Web application based on LAMP Stack",
             "customers": ["Mosaicoon"],
-            "skills": ["PHP", "PHP Custom Framework", "Javascript", "JQuery", "MySQL"]
+            "skills": ["PHP", "PHP Custom Framework", "JavaScript", "JQuery", "MySQL"]
         },
         {
             "description": "Crevity, a crowd sourcing platform to scale Mosaicoon's video productions",
@@ -56,8 +56,8 @@
             "notes": "Web application based on LEMP Stack",
             "customers": ["Mosaicoon"],
             "hostedAt": "DigitalOcean VPS",
-            "skills": ["Git", "PHP", "Symfony Framework", "Silex", "Javascript", "Backbone.js", "Angular.js", "PHP-FPM", "Nginx",
-                "MariaDb", "MongoDb", "Redis", "ElasticSearch", "RESTful API's", "Beanstalkd", "JWT",
+            "skills": ["Git", "PHP", "Symfony Framework", "Silex", "JavaScript", "Backbone.js", "Angular.js", "PHP-FPM", "Nginx",
+                "MariaDb", "MongoDB", "Redis", "ElasticSearch", "RESTful API's", "Beanstalkd", "JWT",
                 "SASS", "CSS3", "Agile Methodology"
             ]
         },
@@ -86,7 +86,7 @@
             "notes": "RESTful Service",
             "customers": ["Mosaicoon"],
             "hostedAt": "DigitalOcean VPS",
-            "skills": ["Git", "Jenkins", "PHP", "Slim Framework", "OAuth", "SSO", "MongoDb", "RESTful Service", "Agile Methodology"]
+            "skills": ["Git", "Jenkins", "PHP", "Slim Framework", "OAuth", "SSO", "MongoDB", "RESTful Service", "Agile Methodology"]
         },
         {
             "description": "Gabriel, a messaging web service that wraps up SMS, emails and Push Notifications into a single RESTful interface",
@@ -96,7 +96,7 @@
             "notes": "Multiprocess RESTful Service",
             "customers": ["Mosaicoon"],
             "hostedAt": "DigitalOcean VPS",
-            "skills": ["Git", "Jenkins", "PHP", "Laravel", "PHP-FPM", "Nginx", "MongoDb", "RESTful Service", "Queues", "Beanstalkd", "Mandrill API's", "Agile Methodology"]
+            "skills": ["Git", "Jenkins", "PHP", "Laravel", "PHP-FPM", "Nginx", "MongoDB", "RESTful Service", "Queues", "Beanstalkd", "Mandrill API's", "Agile Methodology"]
         },
         {
             "description": "Payment Module Web Service with PayPal",
@@ -115,7 +115,7 @@
             "notes": "RESTful Service which transcodes uploaded videos with specified transcoding options",
             "customers": ["Mosaicoon"],
             "hostedAt": "DigitalOcean VPS",
-            "skills": ["Git", "Jenkins", "PHP", "Symfony Framework", "FFmpeg", "PHP-FPM", "Beanstalkd", "Nginx", "MongoDb", "RESTful Service", "Functional Testing", "Agile Methodology"]
+            "skills": ["Git", "Jenkins", "PHP", "Symfony Framework", "FFmpeg", "PHP-FPM", "Beanstalkd", "Nginx", "MongoDB", "RESTful Service", "Functional Testing", "Agile Methodology"]
         },
         {
             "description": "Refactoring of Plavid, the Mosaicoon's proprietary advertising distribuition platform",
@@ -146,6 +146,38 @@
             "customers": ["Mosaicoon"],
             "hostedAt": "AWS",
             "skills": ["Docker", "Git", "Jenkins", "AWS", "EC2", "Route 53", "Elastic Cache", "S3", "RDS", "CloudFront", "Nginx", "Load Balancing", "Horizontal Scaling", "CDN"]
+        },
+        {
+            "description": "Improve Microservices composition release realizing a Blue/Green deployment release workflow in a clusterized AWS environment",
+            "role": "Devops Engineer",
+            "time": "3+ months",
+            "InvolvedPersons": 3,
+            "notes": "This task required the Docker Swarm orchestrator, organized in scalable services",
+            "references": ["https://martinfowler.com/bliki/BlueGreenDeployment.html", "https://technologyconversations.com/2016/02/08/blue-green-deployment/"],
+            "customers": ["Mosaicoon"],
+            "hostedAt": "AWS",
+            "skills": ["Docker", "Docker Swarm", "Git", "Jenkins", "AWS", "Load Balancing", "Routing"]
+        },
+        {
+            "description": "Improve Mosaicoon's Finance Microservices composition collecting crucial Salesforce's data",
+            "role": "Architect and Developer",
+            "time": "3 months",
+            "InvolvedPersons": 2,
+            "notes": "This task required the development of 2 Node.js Microservices that interact with Salesforce API's that continusly collect data using the FindOrCreate write methodology",
+            "customers": ["Mosaicoon"],
+            "hostedAt": "AWS",
+            "skills": ["Docker", "Git", "Node.js", "JavaScript", "ReactJS", "Express", "MongoDB", "Apache Kafka", "Redis", "Salesforce", "Apex", "Agile Methodology"]
+        },
+        {
+            "description": "Use Video Intelligence for Mosaicoon's Videos",
+            "role": "Architect and Developer",
+            "time": "3 months",
+            "InvolvedPersons": 2,
+            "notes": "",
+            "customers": ["Mosaicoon"],
+            "references": ["https://cloud.google.com/video-intelligence"],
+            "hostedAt": "AWS",
+            "skills": ["Docker", "Git", "Node.js", "JavaScript", "ReactJS", "Express", "MongoDB", "Apache Kafka", "Redis", "Google Cloud Storage", "Google Cloud Video Intelligence", "Agile Methodology"]
         }
     ]
 }
